@@ -25,7 +25,7 @@ read -rsn 1 -p 'Press any key to continue . . . ';echo
 curl https://releases.rancher.com/install-docker/20.10.sh | sh
 
 # Install Rancher
-echo "Deploying Docker !"
+echo "Deploying Rancher !"
 read -rsn 1 -p 'Press any key to continue . . . ';echo
 
 docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged rancher/rancher
