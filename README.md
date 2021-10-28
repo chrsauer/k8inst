@@ -5,7 +5,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/chrsauer/k8inst/main/instranc
 
 
 
-Noderechner für Docker vorbereiten:
+Noderechner für Docker (Deb11) vorbereiten:
 
-bash <(wget -qO- https://raw.githubusercontent.com/chrsauer/k8inst/main/instdocker.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/chrsauer/k8inst/main/instdocker-d11.sh)
 
